@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.div1{
+    width:100%;
+    border:2px solid black;
+    text-align: center;
+    /* height:50vh; */
+    padding:6rem;
+    background-color: #07212e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div1 h1{
+ 
+    width:100%;
+    font-size: 3rem;
+    color: white;
+    padding-top: 1rem;
+}
+.div1 p{
+   width:100%;
+   color:orange;
+    
+    letter-spacing: 0.7rem;
+    
+}
+@media(max-width:605px){
+    .div1{
+        padding:1rem;
+    }
+    .div1 p{
+        font-size: 0.6rem;
+    }
+    .div1 h1{
+        font-size:2rem;
+    }
+    
+}
+.div2{
+    width:100%;
+    /* border:2px solid blueviolet; */
+    margin-top: 7rem;
+    /* background-color: #dcdfd0; */
+    border-radius: 2rem;
+
+}
+.div2a{
+    /* border:2px solid red; */
+    text-align: center;
+    color: orange;
+    padding: 1rem;
+    font-size: x-large;
+    
+}   
+
+.div2b{
+    width:100%;
+    display:flex;
+    /* border:2px solid black; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+}
+.div2ba{
+    display :flex;
+    /* border:2px solid yellow; */
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width:26rem;
+}
+.div2baa{
+    width:5rem;
+    margin-left: 1rem;
+}
+.div2baa img{
+ width:100%;
+
+}
+.div2bab{
+  padding:0.5rem;
+  margin-left: 1rem;
+}
+.div2bab p{
+    margin-top:0.5rem;
+}
+
+@media(max-width:400px){
+    .div2a h1{
+        font-size:larger;
+    }
+}
+.div3{
+    width:100%;
+    /* border: 2px solid black; */
+    margin-top:7rem;
+    background-image: url("https://technext.github.io/fruitkha/assets/img/1.jpg");
+    background-color: white;
+    padding:0rem;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+.div3a{
+    margin-right:20rem;
+    margin-left:12rem;
+}
+.div3a h1{
+    font-size:3rem;
+    
+
+}
+.div3aa{
+    font-size:2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+.div3a a{
+    font-size: 1.3rem;
+    padding:0.5rem;
+    border:2px solid black;
+    border-radius:2rem;
+    text-decoration: none;
+    color:white;
+    background-color: orange;
+    margin-top:1rem;
+}
+@media(max-width:1065px){
+    .div3a{
+        margin-left:5rem;
+        margin-right: 0rem;
+    }
+}
+@media(max-width:525px){
+    .div3a{
+        margin-left:1rem;
+       
+    }
+}
+@media(max-width:240px){
+    .div3a h1{
+        font-size:2rem;
+        
+    
+    }
+}
+.div4{
+    width:100%;
+    /* border:2px solid black; */
+    margin-top:6rem;
+}
+.div4a{
+    text-align: center;
+    /* border:2px solid red; */
+}
+.div4a h1{
+  color: orange;
+  font-size: 3rem;
+  margin:1rem;
+}
+.div4a p{
+    color:black;
+    opacity: 0.5;
+    margin:1rem;
+    font-weight: 300;
+  }
+.div4b{
+    display: flex;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ba{
+    display: flex;
+    flex-direction: column;
+    margin:1.2rem;
+}
+.baa{
+    width:18rem;
+}
+.baa img{
+    width:100%;
+}
+.bab{
+    text-align: center;
+}
+.bab h3{
+    margin:1rem;
+}
+.bab p{
+    opacity: 0.7;
+}
+@media(max-width:300px){
+  .baa{
+    width:12rem;
+  }
+}
+
+.div6{
+    width:100%;
+    padding: 2rem;
+    border:2px solid black;
+    margin-top:6rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(5, 5, 26);
+    color:white;
+
+} 
+
+.div6a h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.div6a p{
+    /* padding-right: 4rem; */
+    text-align: left;
+}
+.div6b{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.div6b h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.div6b p{
+    padding-right: 6rem;
+    margin-top:1rem;
+    text-align: left;
+}
+.div6c{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.div6c h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.div6c ul{
+    padding-left: 2rem;
+}
+.div6d h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.div6d{
+    padding-left: 2rem;
+    padding-right:2rem;
+}
+.div6d input{
+    padding: 0.5rem;
+    margin-top:0.7rem;
+}
+@media(max-width:1180px){
+    .div6{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .div6a{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+  .div6c{
+    margin-top: 5rem;
+
+  }
+  .div6d{
+    margin-top: 5rem;
+    
+  }
+}
+@media(max-width:840px){
+.div6{
+    padding:0.7rem;
+}
+.div6a {
+    padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+@media(max-width:630px){
+    .div6{
+        grid-template-columns: repeat(1,1fr);
+        padding:2rem;
+    }
+    .div6b{
+        margin-top:5rem;
+    }
+    .div6c{
+        padding-left: 1.7rem;
+    }
+}
+@media(max-width:380px){
+    .div6{
+        padding:1rem;
+    }
+    .div6a{
+        padding-left:0;
+        padding-right:0;
+    }
+    .div6b{
+        padding-left:0;
+        padding-right:0;
+    }
+    .div6c{
+        padding-left:0;
+        padding-right:0;
+    }
+    .div6d{
+        padding-left:0;
+        padding-right:0;
+    }
+    .div6b p{
+        padding-right:1rem;
+    }
+}
