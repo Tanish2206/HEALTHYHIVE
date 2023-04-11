@@ -257,6 +257,10 @@
 .div6c ul{
     padding-left: 2rem;
 }
+.div6c li a{
+    text-decoration: none;
+    color: white;
+}
 .div6d h2{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -265,6 +269,22 @@
 .div6d{
     padding-left: 2rem;
     padding-right:2rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
 }
 .div6d input{
     padding: 0.5rem;
